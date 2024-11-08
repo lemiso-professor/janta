@@ -1,0 +1,55 @@
+//   <script>
+//         document.addEventListener('DOMContentLoaded', function () {
+//           // Desktop dropdown toggle
+//           const desktopDropdownButton = document.getElementById('desktopDropdownNavbarLink');
+//           const desktopDropdownMenu = document.getElementById('desktopDropdownNavbar');
+          
+//           desktopDropdownButton.addEventListener('click', function (event) {
+//             event.stopPropagation();
+//             desktopDropdownMenu.classList.toggle('hidden');
+//           });
+      
+//           // Mobile dropdown toggle
+//           const mobileDropdownButton = document.getElementById('mobileDropdownNavbarLink');
+//           const mobileDropdownMenu = document.getElementById('mobileDropdownNavbar');
+      
+//           mobileDropdownButton.addEventListener('click', function (event) {
+//             event.stopPropagation();
+//             mobileDropdownMenu.classList.toggle('hidden');
+//           });
+      
+//           // Close dropdowns if clicked outside
+//           document.addEventListener('click', function (event) {
+//             if (!desktopDropdownButton.contains(event.target) && !desktopDropdownMenu.contains(event.target)) {
+//               desktopDropdownMenu.classList.add('hidden');
+//             }
+//             if (!mobileDropdownButton.contains(event.target) && !mobileDropdownMenu.contains(event.target)) {
+//               mobileDropdownMenu.classList.add('hidden');
+//             }
+//           });
+//         });
+//       </script>
+
+
+
+
+
+
+
+// <!-- Mobile Dropdown Button -->
+// <button id="mobileDropdownNavbarLink" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+//   Dropdown
+//   <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+//     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+//   </svg>
+// </button>
+
+// <!-- Mobile Dropdown Content -->
+// <div id="mobileDropdownNavbar" class="dropdown-menu hidden">
+//   <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="mobileDropdownNavbarLink">
+//     <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
+//     <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
+//     <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
+//   </ul>
+// </div>
+      
